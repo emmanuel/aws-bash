@@ -52,7 +52,7 @@ function sign() {
   STRING_TO_SIGN="$1"
   SECRET_ACCESS_KEY="$2"
   REQUEST_DATE="$3"
-  REGION="$4"
+  REQUEST_REGION="$4"
   REQUEST_SERVICE="$5"
   shift 5
 
